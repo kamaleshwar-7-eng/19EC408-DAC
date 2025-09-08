@@ -53,7 +53,7 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 | 1008            |  MOV AL,0FFH |   Load 00H in Accumulator       |
 | 100A            |   OUT 0C8H,AL|  Send through output port       |
 | 100D            |  CALL DELAY(1100) | CALL PROGRAM TO 1100       |
-
+| 1010            |  JMP 1000    |   Go to starting location(1000) |
 
 | Memory Location | Program     | Comments                          |
 |-----------------|-------------|-----------------------------------|
